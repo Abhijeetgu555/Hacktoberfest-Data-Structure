@@ -46,7 +46,7 @@ int main()
             }
         }
     }
-    cout<<dp[x]%MOD<<endl;
+    cout<<dp[x]%MOD<<"\n";
 
 
     return 0;
