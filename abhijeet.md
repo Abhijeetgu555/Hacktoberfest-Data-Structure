@@ -13,7 +13,7 @@ ll power[100001];
 
 ll mod = 1e9+7;
 
-// we will store hash value of strings till ith length in h[] array
+// We Will store hash value of strings till ith length in h[] array
 
 void generate_hash(string s)
 {
