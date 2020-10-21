@@ -22,11 +22,11 @@ int CatalanBST(int n)
 int main()
 {
 
-    int n;
-    cin>>n;
+    int N;
+    cin>>N;
     memset(dp,-1,sizeof dp);
     //cout<<catalanBST(n);
-    for(int i=0;i<=n;i++)
+    for(int i=0;i<=N;i++)
     {
         cout<<CatalanBST(i)<<" ";
     }
