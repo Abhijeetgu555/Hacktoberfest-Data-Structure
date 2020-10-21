@@ -24,7 +24,7 @@ const int MOD = 1000000007;
 
 int main()
 {
-    fast
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     ll n,x;
     cin>>n>>x;
     vector<ll> coins(n+1);
@@ -46,7 +46,7 @@ int main()
             }
         }
     }
-    cout<<dp[x]%MOD<<endl;
+    cout<<dp[x]%MOD<<"\n";
 
 
     return 0;
