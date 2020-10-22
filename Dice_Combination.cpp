@@ -38,7 +38,7 @@ int main()
             dp[i] += dp[i-j]%MOD;
         }
     }
-    cout<<dp[n]%MOD<<endl;
+    cout<<dp[n]%MOD<<"\n";
 
 
     return 0;
